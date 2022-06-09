@@ -4,10 +4,33 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function Header()
+{
+	return <div id = "header">
+	
+		<span id = "name">
+				
+			Ashfak Uddin
+		
+		</span>
+		<button>Contact</button>
+		<button>About</button>
+		
+	</div>
+}
+function About()
+{
+	return <div>
+		<div id = "content">
+			Hi, I'm Ashfak. I'm an upcoming full stack MERN web developer. Feel free to browse my various projects. 
+		</div>
+	</div>
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+	<Header />
+	<About />
   </React.StrictMode>
 );
 

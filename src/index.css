@@ -1,13 +1,44 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#header
+{
+	text-align: right;
+}
+#name
+{
+	padding: .5%;
+	float: left;
+}
+#content
+{
+	max-width: 20%;
+	position: relative;
+	left: 10%;
+	top: 20%;
+	font-size: 2.5vw;
+	font-family: Roboto;
+	font-weight: bold;
+	color: purple;
+}
+button
+{
+	background: transparent;
+	width: 5em;
+	border: none;
+	font-size: 1.5vw;
+	padding: 1%;
 }
